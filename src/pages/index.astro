@@ -1,5 +1,7 @@
 ---
-
+import Navigation from '../components/Navigation.astro';
+import ContactForm from '../components/ContactForm.astro';
+import '../styles/global.css';
 ---
 
 <html lang="en">
@@ -13,7 +15,8 @@
 	<body>
 		<h1>hello</h1>
 		
-		<a href="/about/">About</a>
-		<a href="/blog/">Blog</a>
+		<Navigation />
+
+		<ContactForm />
 	</body>
 </html>
